@@ -1,9 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\.vs\slnx.sqlite" />
+    <None Include="wwwroot\.vs\template\config\applicationhost.config" />
+    <None Include="wwwroot\.vs\template\FileContentIndex\ef540de2-6dec-45fd-a1fa-6527adde50f3.vsidx" />
+    <None Include="wwwroot\.vs\template\FileContentIndex\read.lock" />
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\.vs\template\FileContentIndex\merges\" />
+    <Folder Include="wwwroot\.vs\template\v17\" />
+  </ItemGroup>
 
 </Project>
